@@ -16,17 +16,11 @@ public class CalculatorDemoApplication {
         System.out.println("\n\n\n");
        // log.info("In main()--------");
         log.info("In main()--------");
-        log.warn("In main()--------");
         
+        log.warn("In main()--------");
         log.trace("In main()--------");
         
-        log.warn("In main()--------");
-        log.warn("In main()--------");
-        log.error("In main()--------"); 
-        
-        log.debug("In main()--------");
        
-        log.error("In main()--------");
 		SpringApplication.run(CalculatorDemoApplication.class, args);
 		
 		System.out.println("In main()");
