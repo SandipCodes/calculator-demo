@@ -14,7 +14,7 @@ public class CalculatorDemoApplication {
         //final Logger log=LoggerFactory.getLogger(CalculatorDemoApplication.class);
         
         System.out.println("\n\n\n");
-       // log.info("In main()--------");
+
         log.info("In main()--------");
         
 
