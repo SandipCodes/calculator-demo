@@ -17,8 +17,7 @@ public class CalculatorDemoApplication {
        // log.info("In main()--------");
         log.info("In main()--------");
         
-        log.warn("In main()--------");
-        log.trace("In main()--------");
+
         
        
 		SpringApplication.run(CalculatorDemoApplication.class, args);
