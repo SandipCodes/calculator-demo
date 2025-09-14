@@ -15,6 +15,15 @@ public class AdditionController {
 		
 		log.info("inside of add()|| Add().....");
 		log.trace("using trace() logs");
+		log.debug("using trace() logs");
+		log.error("using trace() logs");
+		log.warn("using trace() logs");
+		
 		return "Reached to add()";
+	}
+	
+	@GetMapping
+	public String addThree() {
+		return "from addThree().......";
 	}
 }
