@@ -1,5 +1,6 @@
 package com.example.demo.controller;
 
+import org.apache.logging.log4j.message.Message;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -22,8 +23,10 @@ public class AdditionController {
 		return "Reached to add()";
 	}
 	
-	@GetMapping
+	@GetMapping("/three")
 	public String addThree() {
+		
+		log.info("loginfo at ||   addThree() ");
 		return "from addThree().......";
 	}
 }
