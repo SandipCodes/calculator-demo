@@ -33,7 +33,7 @@ public class AdditionController {
 	
 	@PostMapping
 	public String addition() {
-		
+		log.info("Welcome to addition method....");
 		return "in addition method..";
 	}
 }
